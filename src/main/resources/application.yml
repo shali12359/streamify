@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://streamife:admin123@streamify.2qcqlxg.mongodb.net/?retryWrites=true&w=majority
+      database: Streamify
+
+streamify:
+  app:
+    jwtCookieName: streamify
+    jwtSecret: ======================Streamify=Spring===========================
+    jwtExpirationMs: 86400000
